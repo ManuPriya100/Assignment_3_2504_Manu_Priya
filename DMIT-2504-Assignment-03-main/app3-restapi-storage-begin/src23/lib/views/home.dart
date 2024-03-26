@@ -59,7 +59,7 @@ class HomeViewState extends State<HomeView> {
             ),
             Expanded(
               //TODO: Replace this Text child with a ListView.builder
-              child: Text('Hi'),
+              child: Text(''),
             ),
           ],
         ),
