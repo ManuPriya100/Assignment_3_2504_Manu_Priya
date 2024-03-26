@@ -1,5 +1,3 @@
-// ignore_for_file: todo, avoid_print, use_key_in_widget_constructors, avoid_function_literals_in_foreach_calls, use_build_context_synchronously, unused_local_variable, prefer_const_constructors
-
 import 'package:flutter/material.dart';
 import 'dart:async';
 import '../services/stock-service.dart';
@@ -91,28 +89,7 @@ class HomeViewState extends State<HomeView> {
                     var symbol = stockSymbol;
                     var companyName = '';
                     var price = '';
-                    try {
-                      //TODO:
-                      //Inside of this try,
-                      //get the company data with
-                      //stockService.getCompanyInfo,
-                      //then get the stock data with
-                      //stockService.getQuote,
-                      //but remember you must use await,
-                      //then if it is not null,
-                      //dig out the symbol, companyName, and latestPrice,
-                      //then create a new object of
-                      //type Stock and add it to
-                      //the database by calling
-                      //databaseService.insertStock,
-                      //then get all the stocks from
-                      //the database with
-                      //databaseService.getAllStocksFromDb and
-                      //attach them to stockList,
-                      //then print all stocks to the console and,
-                      //finally call setstate at the end.
-                      
-                    } catch (e) {
+                    try {} catch (e) {
                       print('HomeView inputStock catch: $e');
                     }
                   }
